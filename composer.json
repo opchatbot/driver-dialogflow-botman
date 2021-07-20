@@ -1,5 +1,5 @@
 {
-  "name": "op/botman-studio-dialogflow-v2",
+  "name": "op/botman-studio-driver-google-dialogflow-v2",
   "description": "Dialogflow v2 integration for Botman Studio.",
   "license": "MIT",
   "keywords": [
@@ -15,7 +15,7 @@
       "email": "m.pociot@gmail.com"
     },
     {
-      "name": "Vince",
+      "name": "vince",
       "email": "vincent@ourproperty.com.au"
     }
   ],
