@@ -1,0 +1,31 @@
+{
+  "name": "op/botman-studio-dialogflow-v2",
+  "description": "Dialogflow v2 integration for Botman Studio.",
+  "license": "MIT",
+  "keywords": [
+    "Bot",
+    "BotMan",
+    "Chatbot",
+    "Dialogflow"
+  ],
+  "homepage": "https://github.com/opchatbot/driver-dialogflow-botman",
+  "authors": [
+    {
+      "name": "Marcel Pociot",
+      "email": "m.pociot@gmail.com"
+    },
+    {
+      "name": "Vince",
+      "email": "vincent@ourproperty.com.au"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Dialogflow2\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.0",
+    "botman/botman": "~2.1|~3.0"
+  }
+}
