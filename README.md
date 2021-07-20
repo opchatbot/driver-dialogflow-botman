@@ -13,7 +13,7 @@ All credit to [@eclips16](https://github.com/eclips16) and others who helped for
 #### Composer
 
 ```
-composer require vincechen/botman-studio-dialogflow-v2
+composer require op/botman-studio-driver-google-dialogflow-v2
 ```
 
 ## Usage
