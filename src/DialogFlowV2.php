@@ -77,9 +77,6 @@ class DialogFlowV2 implements MiddlewareInterface
      */
     public function received(IncomingMessage $message, $next, BotMan $bot)
     {
-        // dd($message->getText());
-        // if(empty($message->getText())){
-        // }
         $response = $this->client->getResponse($message);
         $message->addExtras('apiReply', $response->getReply());
         $message->addExtras('apiAction', $response->getAction());

@@ -44,6 +44,10 @@ class Client
      */
     public function getResponse(IncomingMessage $message): Response
     {
+        if (strlen($message->getText()) > 255) {
+            $message->setText(substr($message->getText(), 0, 255));
+        }
+
         $queryInput = $this->queryInput($message->getText(), $this->lang);
 
         $intentResponse = $this->getIntentResponse(md5($message->getConversationIdentifier()), $queryInput);
